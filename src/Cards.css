@@ -1,0 +1,39 @@
+.Cards {
+    width: 16.5vw;
+    height: 45vh;
+    border-radius: 1vw;
+    background-color: rgb(58, 52, 63);
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    font-style: oblique;
+}
+
+.Cards h4 {
+    text-align: start;
+    font-weight: 300;
+    padding: 1vw 0;
+    font-family: "Gilroy";
+    font-size: 1.2rem;
+}
+
+.Cards p {
+    margin: 0;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+@media (max-width: 600px) {
+    .Cards {
+        width: 70vw;
+        background-color: #fff;
+        color: #000;
+        height: 43vh;
+    }
+    .Cards h4{
+        font-size: 1.5rem;
+    }
+    .Cards p{
+        font-size: 1.1rem;
+    }
+}
